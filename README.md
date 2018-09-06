@@ -1,10 +1,14 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-[![Version](https://img.shields.io/npm/v/react-native-circular-slider.svg)](https://www.npmjs.com/package/react-native-circular-slider)
+[![Version](https://img.shields.io/npm/v/react-native-circular-slider-re.svg)](https://www.npmjs.com/package/react-native-circular-slider-re)
 [![Twitter Follow](https://img.shields.io/twitter/follow/bgryszko.svg?style=social&label=Follow)](https://twitter.com/bgryszko)
 
-# react-native-circular-slider :radio_button:
+# react-native-circular-slider-re :radio_button:
 
 React Native component for creating circular slider.
+
+***Note: This is a copy of https://github.com/bgryszko/react-native-circular-slider
+
+This repo just fix some issues that involves to React Proptypes
 
 ## Example app – inspired by Apple's Bedtime :alarm_clock:
 (It's just an example what you can achieve – with this package you can create any circular slider)
@@ -16,7 +20,7 @@ React Native component for creating circular slider.
 1. Install library and react-native-svg
 
 	```
-	npm i --save react-native-circular-slider react-native-svg
+	npm i --save react-native-circular-slider-re react-native-svg
 	```
 2. Link native code for SVG
 
@@ -29,7 +33,7 @@ React Native component for creating circular slider.
 Import Circular Slider
 
 ```js
-import CircularSlider from 'react-native-circular-slider';
+import CircularSlider from 'react-native-circular-slider-re';
 ```
 
 Use as follows:
@@ -78,8 +82,8 @@ You can configure the passing by following props:
 You'll find working example in the `example` directory of this repository. You can run it by:
 
 ```sh
-git clone https://github.com/bgryszko/react-native-circular-slider.git
-cd  react-native-circular-slider/example/Bedtime
+git clone https://github.com/bgryszko/react-native-circular-slider-re.git
+cd  react-native-circular-slider-re/example/Bedtime
 npm install
 open ios/Bedtime.xcodeproj
 ```
@@ -96,8 +100,8 @@ If you'd rather build it locally, follow these steps:
 2. Clone the repo and install dependencies
 
   ```sh
-  git clone https://github.com/bgryszko/react-native-circular-slider.git
-  cd  react-native-circular-slider/example-exponent/Bedtime
+  git clone https://github.com/bgryszko/react-native-circular-slider-re.git
+  cd  react-native-circular-slider-re/example-exponent/Bedtime
   npm install
   ```
 3. Open the project with XDE
